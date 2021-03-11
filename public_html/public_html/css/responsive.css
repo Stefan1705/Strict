@@ -1,0 +1,107 @@
+
+/*   SM breakpoint*/
+@media(min-width:576px){
+    /*FAQ*/
+    .faq .figure-content{
+        max-width: 250px;
+        margin: 5px auto;
+    }
+
+
+
+}
+
+
+/*   MD breakpoint*/
+@media(min-width:768px){
+
+    /*HEADER*/  
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-light .navbar-nav{
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item{
+        margin-bottom: 0;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        display: block;
+        padding: 15px 20px;
+        font-size: 0.8rem;
+    }
+
+    /*ABOUT*/
+    .about{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .about h1{
+        margin-bottom: 1.6rem;
+    }
+    .about p{
+        margin-bottom: 2rem;
+    }
+
+    /*FAQ*/
+     .faq .figure-content{
+       width: 100%;
+       max-width: none;
+    }
+
+}
+
+/*   LG breakpoint*/
+@media(min-width:992px){
+    /*HEADER*/
+    .navbar-light .navbar-nav .nav-link{
+        padding: 15px 33px;
+        font-size: 1rem;
+    }
+    /*ABOUT*/
+    .about{
+        padding-top: 130px;
+        padding-bottom: 105px;
+    }
+    .about h1{
+        margin-bottom: 2.2rem;
+        font-size: 4.5rem;
+        padding: 0.7rem 1.7rem;
+    }
+    .about p{
+        margin-bottom: 3rem;
+    }
+    .about .about-btn{
+        margin-bottom:7rem !important;
+    }
+    /*HOW IT WORKS*/
+    .how-it-works{
+        padding: 60px 0 !important;
+    }
+
+    /*SERVICES*/
+    .services .fa-mobile-alt,
+    .services .fa-bullhorn,
+    .services .fa-telegram-plane{
+        margin-bottom: 1.4rem !important;
+    }
+    .services h4{
+        margin-bottom: 1.4rem !important;
+    }
+}
+
+
+/*   XL breakpoint*/
+@media(min-width:1200px){
+    .navbar-light .navbar-nav .nav-link{
+        padding: 15px 45px;
+        font-size: 1rem;
+    }
+
+}

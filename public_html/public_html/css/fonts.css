@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Arial-regular';
+    src:
+        url('fonts/Arial-regular/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Arial-regular/ArialMT.woff2') format('woff2'),
+        url('fonts/Arial-regular/ArialMT.woff') format('woff'),
+        url('fonts/Arial-regular/ArialMT.ttf') format('truetype'),
+        url('fonts/Arial-regular/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*    font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
