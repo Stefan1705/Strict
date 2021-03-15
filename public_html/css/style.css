@@ -242,19 +242,77 @@ h2{
 
 .faq .figure-content .see-more .fa-search-plus,
 .faq .figure-content .see-more .fa-link{
-font-size: 1rem;
-line-height: 2.5rem;
-width: 2.5rem;
-height: 2.5rem;
-border: 1px solid #fff;
-color: #fff;
-margin-right: 0.3rem;
-transition: 0.2s linear;
-vertical-align: middle;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 0.3rem;
+    transition: 0.2s linear;
+    vertical-align: middle;
 }
 
 .faq .figure-content .hover-content .see-more .fa-search-plus:hover,
 .faq .figure-content .hover-content .see-more .fa-link:hover{
     transform: scale(1.3);
     overflow: hidden;
+}
+
+/*Contact*/
+.contact h2{
+    font-size:2rem;
+    line-height: 2.1rem;
+    color: #fff;
+}
+
+.contact p{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #999999;
+}
+
+.contact .form-content .form-item{
+    color: #999999;
+    border: 1.5px solid #999999;
+    border-radius: 10px;
+}
+
+.contact .form-content::placeholder{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #999999;
+}
+
+.contact .form-content .subscribe-newsletter{
+    text-align:left;
+    margin-bottom:1rem;
+}
+
+.contact .form-content .subscribe-newsletter label{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+    padding-left: 0.2rem;
+}
+
+/*Footer*/
+footer .copy{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #999999;
+    text-align: center;
+}
+
+footer .social a{
+    color: #15A4FA !important;
+    background-color: #fff !important;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+    margin-right: 0.4rem;
+    transition: 0.3s linear;
+}
+
+footer .social a:hover{
+    transform: scale(1.5);
 }

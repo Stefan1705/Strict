@@ -7,7 +7,15 @@
         margin: 5px auto;
     }
 
+    /*CONTACT*/
+    .contact{
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
 
+    .contact .newsletter .btn{
+        width: 100% !important;
+    }
 
 }
 
@@ -50,11 +58,20 @@
     }
 
     /*FAQ*/
-     .faq .figure-content{
-       width: 100%;
-       max-width: none;
+    .faq .figure-content{
+        width: 100%;
+        max-width: none;
     }
 
+    /*CONTACT*/
+    .contact{
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .contact .form-content textarea{
+        margin-bottom: 1.5rem !important;
+    }
 }
 
 /*   LG breakpoint*/
@@ -94,6 +111,20 @@
     .services h4{
         margin-bottom: 1.4rem !important;
     }
+    
+    /*CONTACT*/
+    .contact{
+        padding-top: 3rem !important;
+        padding-bottom: 4.5rem !important;
+    }
+    
+    .contact p{
+        margin-bottom: 2rem !important;
+    }
+    
+    .contact .form-content textarea{
+        margin-bottom: 2rem !important;
+    }
 }
 
 
@@ -104,4 +135,11 @@
         font-size: 1rem;
     }
 
+    /*CONTACT*/
+    .contact{
+        padding-top: 4rem !important;
+        padding-bottom: 6rem !important;
+    }
+    
+    
 }
