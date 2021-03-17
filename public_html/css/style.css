@@ -272,29 +272,43 @@ h2{
     color: #999999;
 }
 
-.contact .form-content .form-item{
-    color: #999999;
-    border: 1.5px solid #999999;
-    border-radius: 10px;
+.contact .contact-form{
+    max-width: 553px;
+    margin: 0 auto;
 }
 
-.contact .form-content::placeholder{
-    font-size: 1rem;
-    line-height: 1.1rem;
-    color: #999999;
+.contact-form .form-control{
+    background-color: transparent;
+    line-height: 60px;
+    height: 60px;
+    padding:  0px 10px;
+    border: 1px solid #F6F9F9;
+    color: #999;
 }
 
-.contact .form-content .subscribe-newsletter{
-    text-align:left;
-    margin-bottom:1rem;
+.contact-form textarea.form-control{
+    height: auto;
 }
 
-.contact .form-content .subscribe-newsletter label{
-    font-size: 1rem;
-    line-height: 1.1rem;
-    color: #FFFFFF;
-    padding-left: 0.2rem;
+input[type=checkbox]{
+    display: none;
 }
+
+.fake-checkbox{
+    width: 15px;
+    height: 15px;
+    background-color: #9AA1AB;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+    border: 3px solid #9AA1AB;
+}
+
+input[type=checkbox]:checked + .fake-checkbox{
+    background-color: green;
+}
+
 
 /*Footer*/
 footer .copy{

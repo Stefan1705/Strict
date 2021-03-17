@@ -250,29 +250,29 @@ and open the template in the editor.
                     <p class="mb-4">
                         We ensure quailty & support
                     </p>
-                    <!--Row starts-->
-                    <div class="row contact-form justify-content-center">
-                        <!--Col starts-->
-                        <div class="col-12 col-sm-8 col-md-6">
-                            <form class="form-content p-2 pt-0" method="post" action="">
-                                <input type="text" name="name" placeholder="Full Name" class="form-item bg-transparent w-100 mb-2 p-2">
-                                <input type="email" name="email" placeholder="Email Addres" class="form-item bg-transparent w-100 mb-2 p-2">
-                                <textarea name="message" placeholder="Message" rows="10" class="form-item bg-transparent w-100 mb-3 p-2"></textarea>
-                                <!--Row starts-->
-                                <div class="row align-items-center newsletter">
-                                    <!--Col starts-->
-                                    <div class="col-12 col-sm-7 subscribe-newsletter mb-sm-0 pr-sm-0">
-                                        <input class="newsletter-item" id="newsletter" type="checkbox" name="newsletter" value="newsletter">
-                                        <label for="newsletter">Subscribe Newsletter</label>
-                                    </div><!--Col ends-->
-                                    <!--Col starts-->
-                                    <div class="col-12 col-sm-5 text-center text-sm-right">
-                                        <button type="submit" value="yes" class="btn w-75">Send</button>   
-                                    </div><!--Col ends-->
-                                </div><!--Row ends-->
-                            </form>
-                        </div><!--Col ends-->
-                    </div><!--Row ends-->
+                    <!--Contact form starts-->
+                    <form class="contact-form" method="post" action="">
+                        <div class="form-group">
+                            <input type="text" name="name" value="" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" value="" placeholder="Email Address" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Message" rows="6"></textarea>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="form-group mr-2">
+                                <label class="text-white mb-0">
+                                    <input type="checkbox" name="newsletter" value="true"><span class="fake-checkbox"></span>
+                                    Subscribe Newsletter
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" name="send" value="yes" class="btn btn-outline-primary text-white px-5 py-2 hvr-shutter-out-horizontal">Send</button> 
+                            </div>
+                        </div>                        
+                    </form><!--Contact form ends-->
                 </div>
             </section><!--Contact section ends-->     
         </main><!--Main ends-->
@@ -282,13 +282,13 @@ and open the template in the editor.
                 <!--Row starts-->
                 <div class="row pt-3 pb-sm-3 justify-content-between align-items-center">
                     <!--Col starts-->
-                    <div class="col-12 pl-0 col-sm-6 col-md-4 mb-1 mb-sm-0">
+                    <div class="col-12 py-0 col-sm-6 col-md-4 mb-1 mb-sm-0">
                         <p class="copy text-sm-left mb-sm-0">
                             Copyright 2021, STRICT
                         </p>
                     </div><!--Col ends-->
                     <!--Col starts-->
-                    <div class="social col-12 mb-4 pr-0 col-sm-6 mb-sm-0 col-md-4 text-center text-sm-right">
+                    <div class="social col-12 mb-4 px-0 col-sm-6 mb-sm-0 col-md-4 text-center text-sm-right">
                         <a href="#" class="fab fa-facebook-square"></a>
                         <a href="#" class="fab fa-twitter-square"></a>
                         <a href="#" class="fab fa-google-plus-square"></a>
